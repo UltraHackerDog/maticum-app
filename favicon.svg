@@ -1,0 +1,7 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Maticum">
+<!-- Maticum's own icon, the Σ of the top bar. Not the Strohmann mark: Maticum is personal work
+     and its public site carries no company brand. A favicon has no document around it, so it
+     carries explicit colours (the kit's ground and ink) instead of currentColor. -->
+<rect width="64" height="64" fill="#ffffff"/>
+<path d="M46 14H18L34 32L18 50H46" fill="none" stroke="#101014" stroke-width="5.5" stroke-linecap="square" stroke-linejoin="miter"/>
+</svg>
