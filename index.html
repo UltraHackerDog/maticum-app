@@ -1,15 +1,24 @@
 <!doctype html>
 <html lang="de">
   <head>
-    <script>(function(){try{var g=localStorage.getItem("wasser.ground");var d=document.documentElement;if(g==="ink")d.setAttribute("data-theme","ink");else d.removeAttribute("data-theme");}catch(e){}})();</script>
+    <meta name="theme-color" content="#ffffff" data-papier="#ffffff" data-tinte="#0d0d0f">
+
+    <script>(function(){try{var g=localStorage.getItem("wasser.ground");var d=document.documentElement;if(g==="ink")d.setAttribute("data-theme","ink");else d.removeAttribute("data-theme");var m=document.querySelector('meta[name="theme-color"]');if(m&&g==="ink")m.setAttribute("content",m.getAttribute("data-tinte"));}catch(e){}})();</script>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta name="description" content="Mathe und Physik üben ohne Papier: Algebra, Beweise, Freikörperbilder und mehr, auf Universitätsniveau." />
     <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <!-- Home-screen app (iPhone): full screen, the page runs under the status bar and keeps clear of it with
+         env(safe-area-inset-*) in the shell. The manifest link is added by vite-plugin-pwa. -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Maticum" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <link rel="apple-touch-icon" href="./apple-touch-icon.png" />
     <title>Maticum</title>
-    <script type="module" crossorigin src="./assets/index-De4Ens_X.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-NdiAuiEx.css">
-  </head>
+    <script type="module" crossorigin src="./assets/index-BMv9CriQ.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-BEK0utg2.css">
+  <link rel="manifest" href="./manifest.webmanifest"></head>
   <body>
     <div id="root"></div>
   </body>
